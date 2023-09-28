@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Es01_Angular';
+  saluto = "Saluto in Angular"
 }
