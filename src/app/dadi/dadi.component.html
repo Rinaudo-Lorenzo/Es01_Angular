@@ -1,1 +1,8 @@
 <p [ngStyle] = "{'backgroundColor': (dado1>dado2) ? 'red' : dado2 > dado1 ? 'green' : 'yellow'}">Il dado 1 valore {{dado1}}</p>
+<p>
+    <span *ngIf="dado1>dado2">Vince Dado1</span>
+    <span *ngIf="dado1<dado2">Vince Dado2</span>
+    <span *ngIf="dado1==dado2">Pareggio</span>
+</p>
+<img src="{{pathDado1}}" alt="dado {{dado1}}" width="50" height="60">
+<img [src]="pathDado2" alt="dado {{dado2}}" width="50" height="60">
