@@ -1,4 +1,4 @@
-<p [ngStyle] = "{'backgroundColor': (dado1>dado2) ? 'red' : dado2 > dado1 ? 'green' : 'yellow'}">Il dado 1 valore {{dado1}}</p>
+<p [ngStyle] = "{'backgroundColor': (dado1>dado2) ? 'green' : dado2 > dado1 ? 'red' : 'yellow'}">Il dado 1 valore {{dado1}}</p>
 <p>
     <span *ngIf="dado1>dado2">Vince Dado1</span>
     <span *ngIf="dado1<dado2">Vince Dado2</span>
