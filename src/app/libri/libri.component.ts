@@ -11,9 +11,9 @@ import { books } from 'src/assets/dati/books';
 export class LibriComponent {
   libri:any = books;
 
-  visPage:boolean = false; //per visualizzare/nascondere una colonna
+  visPag:boolean = true; //per visualizzare/nascondere una colonna
 
   constructor(){
-    this.visPage = false;
+    this.visPag = false;
   }
 }
